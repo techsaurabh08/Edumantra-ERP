@@ -1,0 +1,23 @@
+# =====================
+# College ERP - .gitignore
+# =====================
+
+# Database config (sensitive - passwords hain)
+# config/db.php
+
+# Student uploaded files
+students/uploads/
+
+# XAMPP / local server files
+*.log
+*.tmp
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# VS Code settings
+.vscode/
+
+# phpMyAdmin temp files
+*.sql.gz
