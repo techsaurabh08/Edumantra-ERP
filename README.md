@@ -132,15 +132,14 @@ git clone https://github.com/techsaurabh08/Edumantra-ERP.git
 
 ### Step 2 — Move to XAMPP htdocs
 
-Copy the project folder into:
-```
-C:/xampp/htdocs/
-```
+Copy the project folder into `C:/xampp/htdocs/`.  
+*Note: If your local folder name is `collegemg erp` or `Edumantra-ERP`, use that exact name.*
 
-So the path becomes:
+Path:
 ```
-C:/xampp/htdocs/Edumantra-ERP/
+C:/xampp/htdocs/collegemg erp/
 ```
+*(or `C:/xampp/htdocs/Edumantra-ERP/` if cloned/renamed)*
 
 ---
 
@@ -171,10 +170,8 @@ $host = "127.0.0.1";
 $user = "root";
 $pass = "";           // your MySQL password
 $db   = "college_db";
-$port = 3306;         // default MySQL port (XAMPP uses 3306)
+$port = 3307;         // set to 3307 if your XAMPP MySQL uses 3307
 ```
-
-> ⚠️ Default XAMPP MySQL port is **3306**. Change to **3307** only if you have a port conflict.
 
 ---
 
@@ -182,8 +179,10 @@ $port = 3306;         // default MySQL port (XAMPP uses 3306)
 
 Go to:
 ```
-http://localhost/Edumantra-ERP/admin/register.php
+http://localhost/collegemg%20erp/admin/register.php
 ```
+*(or `http://localhost/Edumantra-ERP/admin/register.php` if folder is renamed to Edumantra-ERP)*
+
 Create your admin username and password.
 
 ---
@@ -192,8 +191,9 @@ Create your admin username and password.
 
 Open your browser and visit:
 ```
-http://localhost/Edumantra-ERP/index.html
+http://localhost/collegemg%20erp/index.html
 ```
+*(or `http://localhost/Edumantra-ERP/index.html` if folder is renamed to Edumantra-ERP)*
 
 ---
 
