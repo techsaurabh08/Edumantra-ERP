@@ -22,32 +22,32 @@ Manage Students, Faculty, Departments, Courses, and Assignments — all from one
 ## ✨ Features
 
 ### 👨‍💼 Admin Panel
-- ✅ Secure login with password hashing (`password_hash`)
-- ✅ Register new admin account
-- ✅ Add / Edit / Delete **Departments**
-- ✅ Add / Edit / Delete **Courses**
-- ✅ Add / Edit / Delete **Students**
-- ✅ Add / Edit / Delete **Faculty**
-- ✅ Manage Student & Faculty **Active/Inactive Status**
-- ✅ Change admin password
+- Secure login with password hashing (`password_hash`)
+- Register new admin account
+- Add / Edit / Delete **Departments**
+- Add / Edit / Delete **Courses**
+- Add / Edit / Delete **Students**
+- Add / Edit / Delete **Faculty**
+- Manage Student & Faculty **Active/Inactive Status**
+- Change admin password
 
 ### 👨‍🎓 Student Panel
-- ✅ Secure login (only active students can login)
-- ✅ View personal profile (name, email, course, department)
-- ✅ View assigned assignments
-- ✅ Submit assignments (PDF upload)
-- ✅ View & delete submitted assignments
-- ✅ Change password
-- ✅ Forgot password recovery
+- Secure login (only active students can login)
+- View personal profile (name, email, course, department)
+- View assigned assignments
+- Submit assignments (PDF upload)
+- View & delete submitted assignments
+- Change password
+- Forgot password recovery
 
 ### 👨‍🏫 Faculty Panel
-- ✅ Secure login (only active faculty can login)
-- ✅ View faculty dashboard
-- ✅ Create assignments (title, subject, due date, description)
-- ✅ View student submissions
-- ✅ Delete assignments & submissions
-- ✅ Change password
-- ✅ Forgot password recovery
+- Secure login (only active faculty can login)
+- View faculty dashboard
+- Create assignments (title, subject, due date, description)
+- View student submissions
+- Delete assignments & submissions
+- Change password
+- Forgot password recovery
 
 ---
 
@@ -146,8 +146,8 @@ C:/xampp/htdocs/collegemg erp/
 ### Step 3 — Start XAMPP
 
 Open **XAMPP Control Panel** and start:
-- ✅ **Apache**
-- ✅ **MySQL**
+- **Apache**
+- **MySQL**
 
 ---
 
@@ -226,12 +226,13 @@ http://localhost/collegemg%20erp/index.html
 
 ## 🔒 Security Features
 
-- ✅ Passwords stored using `password_hash()` (bcrypt)
-- ✅ Login verified using `password_verify()`
-- ✅ SQL Injection protection via `mysqli_real_escape_string()`
-- ✅ Session-based authentication for all 3 roles
-- ✅ Inactive users cannot login
-- ✅ Unauthorized page access redirects to login
+- Passwords stored using `password_hash()` (bcrypt)
+- Login verified using `password_verify()`
+- SQL Injection protection via
+`mysqli_real_escape_string()`
+- Session-based authentication for all 3 roles
+- Inactive users cannot login
+- Unauthorized page access redirects to login
 
 ---
 
